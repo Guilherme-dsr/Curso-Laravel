@@ -1,4 +1,3 @@
-  
 /* General */
 * {
   font-family: 'Roboto';
@@ -192,6 +191,31 @@ header {
 
 #items-list li {
   display: flex;
+}
+
+#description-container {
+  margin-top: 30px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-events-container th {
+  width: 25%;
+}
+
+.dashboard-events-container form {
+  display: inline-block;
+}
+
+/* Edit page */
+
+.img-preview {
+  width: 100px;
+  margin-top: 20px;
 }
 
 /* footer */

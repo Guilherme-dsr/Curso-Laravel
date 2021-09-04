@@ -15,8 +15,12 @@ class Event extends Model
 
     protected $detes = ['date'];
 
+    protected $guarded = [];
+
     public function user(){
         return $this->belongsTo('App\Models\User');
     }
+
+    
     
 }
